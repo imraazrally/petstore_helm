@@ -1,11 +1,11 @@
 apiVersion: v2
-name: pl-proxy
+name: pl-proxy-dev
 description: Helm Chart for the pl-proxy component of API Gateway
 type: application
 version: 0.1.0
 appVersion: "v1"
 
 dependencies:
-- name: pl-proxy-dev
+- name: hello-world
   version: 0.1.0
-  repository: https://helm.github.io/examples
+  repository: https://github.com/helm/examples/tree/main/charts/hello-world
